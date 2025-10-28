@@ -1,0 +1,4 @@
+seaweedfs-setup/bin/*
+seaweedfs-setup/data/*
+seaweedfs-setup/scripts/filerldb2/*
+
