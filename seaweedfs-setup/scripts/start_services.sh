@@ -3,6 +3,12 @@
 
 set -e
 
+# Check if weed binary is available in PATH
+if ! command -v weed >/dev/null 2>&1; then
+    echo "Error: 'weed' command not found in PATH. Please install SeaweedFS and ensure 'weed' is available in your PATH."
+    exit 1
+fi
+
 echo "Starting SeaweedFS services..."
 
 # Function to start a service in background
@@ -28,7 +34,7 @@ start_service() {
 }
 
 # Start Master Server
-start_service "master" "../bin/weed master -port=9333 -mdir=../data/master" "master"
+start_service "master" "weed master -port=9333 -mdir=../data/master" "master"
 
 # Wait a moment for master to initialize
 sleep 2
@@ -36,11 +42,11 @@ sleep 2
 # Start Volume Servers
 for i in {1..3}; do
     port=$((8079 + i))
-    start_service "volume${i}" "../bin/weed volume -port=${port} -dir=../data/volume${i} -mserver=localhost:9333" "volume${i}"
+    start_service "volume${i}" "weed volume -port=${port} -dir=../data/volume${i} -mserver=localhost:9333" "volume${i}"
 done
 
 # Start Filer Server
-start_service "filer" "../bin/weed filer -port=8888 -master=localhost:9333" "filer"
+start_service "filer" "weed filer -port=8888 -master=localhost:9333" "filer"
 
 echo ""
 echo "All services started successfully!"

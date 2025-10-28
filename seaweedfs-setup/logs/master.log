@@ -1,0 +1,190 @@
+F1028 11:55:59.864174 master.go:115 Check Meta Folder (-mdir) Writable ../data/master : stat ../data/master: no such file or directory
+goroutine 1 [running]:
+github.com/seaweedfs/seaweedfs/weed/glog.stacks(0x0)
+	/github/workspace/weed/glog/glog.go:768 +0x85
+github.com/seaweedfs/seaweedfs/weed/glog.(*loggingT).output(0x3f3e6a0, 0x3, 0xc0003bc9a0, {0x322d8b3?, 0xc0007c7e68?}, 0x2?, 0x0)
+	/github/workspace/weed/glog/glog.go:719 +0x38a
+github.com/seaweedfs/seaweedfs/weed/glog.(*loggingT).printf(0x3f3e6a0, 0x3, {0x246b022, 0x2a}, {0xc0007c7e68, 0x2, 0x2})
+	/github/workspace/weed/glog/glog.go:657 +0x10a
+github.com/seaweedfs/seaweedfs/weed/glog.Fatalf(...)
+	/github/workspace/weed/glog/glog.go:1154
+github.com/seaweedfs/seaweedfs/weed/command.runMaster(0x3f21538?, {0xc000154060?, 0x2?, 0x2?})
+	/github/workspace/weed/command/master.go:115 +0x17c
+main.main()
+	/github/workspace/weed/weed.go:80 +0x2c2
+I1028 12:01:27.831701 file_util.go:27 Folder ../data/master Permission: -rwxr-xr-x
+I1028 12:01:27.832048 master.go:269 current: 192.168.50.33:9333 peers:
+I1028 12:01:27.832178 master_server.go:127 Volume Size Limit is 30000 MB
+I1028 12:01:27.832428 master.go:150 Start Seaweed Master 30GB 3.63 54d7748a4a54d94a31ce04d05db801faeff4f690 at 192.168.50.33:9333
+F1028 12:01:27.832572 master.go:153 Master startup error: listen tcp 192.168.50.33:9333: bind: address already in use
+goroutine 1 [running]:
+github.com/seaweedfs/seaweedfs/weed/glog.stacks(0x0)
+	/github/workspace/weed/glog/glog.go:768 +0x85
+github.com/seaweedfs/seaweedfs/weed/glog.(*loggingT).output(0x3f3e6a0, 0x3, 0xc0002f8bd0, {0x322d8b3?, 0xc0007bfd10?}, 0x1?, 0x0)
+	/github/workspace/weed/glog/glog.go:719 +0x38a
+github.com/seaweedfs/seaweedfs/weed/glog.(*loggingT).printf(0x3f3e6a0, 0x3, {0x242857c, 0x18}, {0xc0007bfd10, 0x1, 0x1})
+	/github/workspace/weed/glog/glog.go:657 +0x10a
+github.com/seaweedfs/seaweedfs/weed/glog.Fatalf(...)
+	/github/workspace/weed/glog/glog.go:1154
+github.com/seaweedfs/seaweedfs/weed/command.startMaster({0xc0005ac8d8, 0xc0005ac8f0, 0xc00006c670, 0xc00006c6a0, 0xc00006c6b0, 0xc00006c6d0, 0xc0005ac9d0, 0xc0005ac9e5, 0xc00006c6f0, 0xc0005ac9f0, ...}, ...)
+	/github/workspace/weed/command/master.go:153 +0x399
+github.com/seaweedfs/seaweedfs/weed/command.runMaster(0x3f21538?, {0xc00014e060?, 0x2?, 0x2?})
+	/github/workspace/weed/command/master.go:124 +0x2d0
+main.main()
+	/github/workspace/weed/weed.go:80 +0x2c2
+I1028 12:01:50.467405 file_util.go:27 Folder ../data/master Permission: -rwxr-xr-x
+I1028 12:01:50.468320 master.go:269 current: 192.168.50.33:9333 peers:
+I1028 12:01:50.468600 master_server.go:127 Volume Size Limit is 30000 MB
+I1028 12:01:50.469091 master.go:150 Start Seaweed Master 30GB 3.63 54d7748a4a54d94a31ce04d05db801faeff4f690 at 192.168.50.33:9333
+F1028 12:01:50.469556 master.go:153 Master startup error: listen tcp 192.168.50.33:9333: bind: address already in use
+goroutine 1 [running]:
+github.com/seaweedfs/seaweedfs/weed/glog.stacks(0x0)
+	/github/workspace/weed/glog/glog.go:768 +0x85
+github.com/seaweedfs/seaweedfs/weed/glog.(*loggingT).output(0x3f3e6a0, 0x3, 0xc0007c7570, {0x322d8b3?, 0xc0008bfd10?}, 0x1?, 0x0)
+	/github/workspace/weed/glog/glog.go:719 +0x38a
+github.com/seaweedfs/seaweedfs/weed/glog.(*loggingT).printf(0x3f3e6a0, 0x3, {0x242857c, 0x18}, {0xc0008bfd10, 0x1, 0x1})
+	/github/workspace/weed/glog/glog.go:657 +0x10a
+github.com/seaweedfs/seaweedfs/weed/glog.Fatalf(...)
+	/github/workspace/weed/glog/glog.go:1154
+github.com/seaweedfs/seaweedfs/weed/command.startMaster({0xc000696888, 0xc0006968a0, 0xc00012afd0, 0xc00012aff0, 0xc00012b000, 0xc00012b020, 0xc000696950, 0xc000696965, 0xc00012b030, 0xc000696970, ...}, ...)
+	/github/workspace/weed/command/master.go:153 +0x399
+github.com/seaweedfs/seaweedfs/weed/command.runMaster(0x3f21538?, {0xc0000500a0?, 0x2?, 0x2?})
+	/github/workspace/weed/command/master.go:124 +0x2d0
+main.main()
+	/github/workspace/weed/weed.go:80 +0x2c2
+I1028 12:04:14.415230 file_util.go:27 Folder ../data/master Permission: -rwxr-xr-x
+I1028 12:04:14.416026 master.go:269 current: 192.168.50.33:9333 peers:
+I1028 12:04:14.416195 master_server.go:127 Volume Size Limit is 30000 MB
+I1028 12:04:14.416473 master.go:150 Start Seaweed Master 30GB 3.63 54d7748a4a54d94a31ce04d05db801faeff4f690 at 192.168.50.33:9333
+I1028 12:04:14.417063 raft_server.go:118 Starting RaftServer with 192.168.50.33:9333
+I1028 12:04:14.427253 raft_server.go:167 current cluster leader: 
+I1028 12:04:32.474414 master_server.go:215 [192.168.50.33:9333]  - is the leader.
+I1028 12:04:32.474936 master.go:201 Start Seaweed Master 30GB 3.63 54d7748a4a54d94a31ce04d05db801faeff4f690 grpc server at 192.168.50.33:19333
+I1028 12:04:33.975677 masterclient.go:156 No existing leader found!
+I1028 12:04:33.975863 raft_server.go:189 Initializing new cluster
+I1028 12:04:33.976044 master_server.go:174 leader change event:  => 192.168.50.33:9333
+I1028 12:04:33.976129 master_server.go:177 [192.168.50.33:9333] 192.168.50.33:9333 becomes leader.
+I1028 12:04:34.009866 node.go:250 topo adds child DefaultDataCenter
+I1028 12:04:34.009949 node.go:250 topo:DefaultDataCenter adds child DefaultRack
+I1028 12:04:34.010015 node.go:250 topo:DefaultDataCenter:DefaultRack adds child 192.168.50.33:8080
+I1028 12:04:34.010066 node.go:250 topo:DefaultDataCenter:DefaultRack:192.168.50.33:8080 adds child 
+I1028 12:04:34.010118 master_grpc_server.go:138 added volume server 0: 192.168.50.33:8080 [8dc261d7-e72f-44c1-a8d6-5cfb055bf410]
+I1028 12:04:34.010171 master_grpc_server.go:49 found new uuid:192.168.50.33:8080 [8dc261d7-e72f-44c1-a8d6-5cfb055bf410] , map[192.168.50.33:8080:[8dc261d7-e72f-44c1-a8d6-5cfb055bf410]]
+I1028 12:04:34.079566 node.go:250 topo:DefaultDataCenter:DefaultRack adds child 192.168.50.33:8082
+I1028 12:04:34.079619 node.go:250 topo:DefaultDataCenter:DefaultRack:192.168.50.33:8082 adds child 
+I1028 12:04:34.079642 master_grpc_server.go:138 added volume server 0: 192.168.50.33:8082 [ec29e5c6-c030-4fba-8581-e072e420e90e]
+I1028 12:04:34.079660 master_grpc_server.go:49 found new uuid:192.168.50.33:8082 [ec29e5c6-c030-4fba-8581-e072e420e90e] , map[192.168.50.33:8080:[8dc261d7-e72f-44c1-a8d6-5cfb055bf410] 192.168.50.33:8082:[ec29e5c6-c030-4fba-8581-e072e420e90e]]
+I1028 12:04:34.387639 node.go:250 topo:DefaultDataCenter:DefaultRack adds child 192.168.50.33:8081
+I1028 12:04:34.387682 node.go:250 topo:DefaultDataCenter:DefaultRack:192.168.50.33:8081 adds child 
+I1028 12:04:34.387707 master_grpc_server.go:138 added volume server 0: 192.168.50.33:8081 [14dfe52a-40f6-4cc0-98e2-e19952b09d0c]
+I1028 12:04:34.387755 master_grpc_server.go:49 found new uuid:192.168.50.33:8081 [14dfe52a-40f6-4cc0-98e2-e19952b09d0c] , map[192.168.50.33:8080:[8dc261d7-e72f-44c1-a8d6-5cfb055bf410] 192.168.50.33:8081:[14dfe52a-40f6-4cc0-98e2-e19952b09d0c] 192.168.50.33:8082:[ec29e5c6-c030-4fba-8581-e072e420e90e]]
+I1028 12:04:34.429856 master_grpc_server.go:349 + client .filer@192.168.50.33:8888
+I1028 12:04:34.434848 master_grpc_server.go:365 - client .filer@192.168.50.33:8888
+I1028 12:04:34.437006 master_grpc_server.go:349 + client .filer@192.168.50.33:8888
+I1028 12:04:34.601515 master_grpc_server.go:349 + client .master@192.168.50.33:9333
+I1028 12:04:34.603339 masterclient.go:247 + master@192.168.50.33:9333 noticed .master 192.168.50.33:9333
+I1028 12:06:22.991872 master_grpc_server.go:365 - client .filer@192.168.50.33:8888
+I1028 12:06:22.992088 masterclient.go:249 - master@192.168.50.33:9333 noticed .filer 192.168.50.33:8888
+W1028 12:06:23.996088 master_grpc_server.go:100 SendHeartbeat.Recv server 192.168.50.33:8082 : rpc error: code = Canceled desc = context canceled
+I1028 12:06:23.996451 node.go:262 topo:DefaultDataCenter:DefaultRack removes 192.168.50.33:8082
+I1028 12:06:23.996482 master_grpc_server.go:87 unregister disconnected volume server 192.168.50.33:8082
+I1028 12:06:23.996498 master_grpc_server.go:58 remove volume server 192.168.50.33:8082, online volume server: map[192.168.50.33:8080:[8dc261d7-e72f-44c1-a8d6-5cfb055bf410] 192.168.50.33:8081:[14dfe52a-40f6-4cc0-98e2-e19952b09d0c]]
+W1028 12:06:34.029321 master_grpc_server.go:100 SendHeartbeat.Recv server 192.168.50.33:8081 : rpc error: code = Canceled desc = context canceled
+I1028 12:06:34.029377 node.go:262 topo:DefaultDataCenter:DefaultRack removes 192.168.50.33:8081
+I1028 12:06:34.029409 master_grpc_server.go:87 unregister disconnected volume server 192.168.50.33:8081
+I1028 12:06:34.029435 master_grpc_server.go:58 remove volume server 192.168.50.33:8081, online volume server: map[192.168.50.33:8080:[8dc261d7-e72f-44c1-a8d6-5cfb055bf410]]
+W1028 12:06:44.061333 master_grpc_server.go:100 SendHeartbeat.Recv server 192.168.50.33:8080 : rpc error: code = Canceled desc = context canceled
+I1028 12:06:44.061402 node.go:262 topo:DefaultDataCenter:DefaultRack removes 192.168.50.33:8080
+I1028 12:06:44.061432 master_grpc_server.go:87 unregister disconnected volume server 192.168.50.33:8080
+I1028 12:06:44.061449 master_grpc_server.go:58 remove volume server 192.168.50.33:8080, online volume server: map[]
+I1028 12:06:54.099100 master_grpc_server.go:365 - client .master@192.168.50.33:9333
+I1028 12:07:37.272310 file_util.go:27 Folder ../data/master Permission: -rwxr-xr-x
+I1028 12:07:37.272591 master.go:295 current: 192.168.50.33:9333 peers:
+I1028 12:07:37.272753 master_server.go:144 Volume Size Limit is 30000 MB
+I1028 12:07:37.272953 master.go:175 Start Seaweed Master 8000GB 3.99 a80b5eea5e210e6b7996e55460b4c5ea3d2b02cd at 192.168.50.33:9333
+I1028 12:07:37.273546 raft_server.go:119 Starting RaftServer with 192.168.50.33:9333
+I1028 12:07:37.284757 raft_server.go:168 current cluster leader: 
+I1028 12:07:55.163682 master_server.go:235 [192.168.50.33:9333]  - is the leader.
+I1028 12:07:55.164888 master.go:226 Start Seaweed Master 8000GB 3.99 a80b5eea5e210e6b7996e55460b4c5ea3d2b02cd grpc server at 192.168.50.33:19333
+I1028 12:07:56.665367 masterclient.go:175 No existing leader found!
+I1028 12:07:56.665538 raft_server.go:190 Initializing new cluster
+I1028 12:07:56.665816 master_server.go:207 leader change event:  => 192.168.50.33:9333
+I1028 12:07:56.665905 master_server.go:210 [192.168.50.33:9333] 192.168.50.33:9333 becomes leader.
+I1028 12:07:56.710568 node.go:427 topo adds child DefaultDataCenter
+I1028 12:07:56.710652 node.go:427 topo:DefaultDataCenter adds child DefaultRack
+I1028 12:07:56.710707 node.go:427 topo:DefaultDataCenter:DefaultRack adds child 192.168.50.33:8082
+I1028 12:07:56.710791 node.go:427 topo:DefaultDataCenter:DefaultRack:192.168.50.33:8082 adds child 
+I1028 12:07:56.710840 master_grpc_server.go:141 added volume server 0: 192.168.50.33:8082 [ec29e5c6-c030-4fba-8581-e072e420e90e]
+I1028 12:07:56.710895 master_grpc_server.go:51 found new uuid:192.168.50.33:8082 [ec29e5c6-c030-4fba-8581-e072e420e90e] , map[192.168.50.33:8082:[ec29e5c6-c030-4fba-8581-e072e420e90e]]
+I1028 12:07:56.789833 master_grpc_server.go:372 + client .master@192.168.50.33:9333
+I1028 12:07:56.790227 masterclient.go:272 + master@192.168.50.33:9333 noticed .master 192.168.50.33:9333
+I1028 12:07:56.905420 node.go:427 topo:DefaultDataCenter:DefaultRack adds child 192.168.50.33:8081
+I1028 12:07:56.905492 node.go:427 topo:DefaultDataCenter:DefaultRack:192.168.50.33:8081 adds child 
+I1028 12:07:56.905516 master_grpc_server.go:141 added volume server 0: 192.168.50.33:8081 [14dfe52a-40f6-4cc0-98e2-e19952b09d0c]
+I1028 12:07:56.905539 master_grpc_server.go:51 found new uuid:192.168.50.33:8081 [14dfe52a-40f6-4cc0-98e2-e19952b09d0c] , map[192.168.50.33:8081:[14dfe52a-40f6-4cc0-98e2-e19952b09d0c] 192.168.50.33:8082:[ec29e5c6-c030-4fba-8581-e072e420e90e]]
+I1028 12:07:56.936168 node.go:427 topo:DefaultDataCenter:DefaultRack adds child 192.168.50.33:8080
+I1028 12:07:56.936350 node.go:427 topo:DefaultDataCenter:DefaultRack:192.168.50.33:8080 adds child 
+I1028 12:07:56.936461 master_grpc_server.go:141 added volume server 0: 192.168.50.33:8080 [8dc261d7-e72f-44c1-a8d6-5cfb055bf410]
+I1028 12:07:56.936558 master_grpc_server.go:51 found new uuid:192.168.50.33:8080 [8dc261d7-e72f-44c1-a8d6-5cfb055bf410] , map[192.168.50.33:8080:[8dc261d7-e72f-44c1-a8d6-5cfb055bf410] 192.168.50.33:8081:[14dfe52a-40f6-4cc0-98e2-e19952b09d0c] 192.168.50.33:8082:[ec29e5c6-c030-4fba-8581-e072e420e90e]]
+I1028 12:07:57.385348 master_grpc_server.go:372 + client .filer@192.168.50.33:8888
+I1028 12:07:57.385975 masterclient.go:272 + master@192.168.50.33:9333 noticed .filer 192.168.50.33:8888
+I1028 12:07:57.386206 master_grpc_server.go:387 - client .filer@192.168.50.33:8888
+I1028 12:07:57.386343 masterclient.go:274 - master@192.168.50.33:9333 noticed .filer 192.168.50.33:8888
+I1028 12:07:57.388989 master_grpc_server.go:372 + client .filer@192.168.50.33:8888
+I1028 12:07:57.389632 masterclient.go:272 + master@192.168.50.33:9333 noticed .filer 192.168.50.33:8888
+I1028 12:08:53.744642 master_grpc_server.go:372 + client .admin@ab03a084-5731-43ee-b6fc-2c1801b19974
+I1028 12:08:53.746949 master_grpc_server.go:387 - client .admin@ab03a084-5731-43ee-b6fc-2c1801b19974
+I1028 12:08:53.753209 master_grpc_server.go:372 + client .admin@2380d34a-51ce-4b4a-9189-776b91de2578
+I1028 12:09:06.287266 master_grpc_server.go:387 - client .admin@2380d34a-51ce-4b4a-9189-776b91de2578
+I1028 12:10:25.973013 master_grpc_server.go:387 - client .filer@192.168.50.33:8888
+I1028 12:10:25.973327 masterclient.go:274 - master@192.168.50.33:9333 noticed .filer 192.168.50.33:8888
+W1028 12:10:26.963837 master_grpc_server.go:103 SendHeartbeat.Recv server 192.168.50.33:8082 : rpc error: code = Canceled desc = context canceled
+I1028 12:10:26.964298 node.go:441 topo:DefaultDataCenter:DefaultRack removes 192.168.50.33:8082
+I1028 12:10:26.964349 master_grpc_server.go:90 unregister disconnected volume server 192.168.50.33:8082
+I1028 12:10:26.964369 master_grpc_server.go:60 remove volume server 192.168.50.33:8082, online volume server: map[192.168.50.33:8080:[8dc261d7-e72f-44c1-a8d6-5cfb055bf410] 192.168.50.33:8081:[14dfe52a-40f6-4cc0-98e2-e19952b09d0c]]
+W1028 12:10:36.996979 master_grpc_server.go:103 SendHeartbeat.Recv server 192.168.50.33:8081 : rpc error: code = Canceled desc = context canceled
+I1028 12:10:36.997048 node.go:441 topo:DefaultDataCenter:DefaultRack removes 192.168.50.33:8081
+I1028 12:10:36.997080 master_grpc_server.go:90 unregister disconnected volume server 192.168.50.33:8081
+I1028 12:10:36.997100 master_grpc_server.go:60 remove volume server 192.168.50.33:8081, online volume server: map[192.168.50.33:8080:[8dc261d7-e72f-44c1-a8d6-5cfb055bf410]]
+W1028 12:10:47.032231 master_grpc_server.go:103 SendHeartbeat.Recv server 192.168.50.33:8080 : rpc error: code = Canceled desc = context canceled
+I1028 12:10:47.032295 node.go:441 topo:DefaultDataCenter:DefaultRack removes 192.168.50.33:8080
+I1028 12:10:47.032334 master_grpc_server.go:90 unregister disconnected volume server 192.168.50.33:8080
+I1028 12:10:47.032353 master_grpc_server.go:60 remove volume server 192.168.50.33:8080, online volume server: map[]
+I1028 12:10:57.064391 master_grpc_server.go:387 - client .master@192.168.50.33:9333
+I1028 12:24:11.546894 file_util.go:27 Folder ../data/master Permission: -rwxr-xr-x
+I1028 12:24:11.547139 master.go:295 current: 192.168.50.33:9333 peers:
+I1028 12:24:11.548313 master_server.go:144 Volume Size Limit is 30000 MB
+I1028 12:24:11.549050 master.go:175 Start Seaweed Master 8000GB 3.99 a80b5eea5e210e6b7996e55460b4c5ea3d2b02cd at 192.168.50.33:9333
+I1028 12:24:11.549575 raft_server.go:119 Starting RaftServer with 192.168.50.33:9333
+I1028 12:24:11.558017 raft_server.go:168 current cluster leader: 
+I1028 12:24:29.009138 master_server.go:235 [192.168.50.33:9333]  - is the leader.
+I1028 12:24:29.010607 master.go:226 Start Seaweed Master 8000GB 3.99 a80b5eea5e210e6b7996e55460b4c5ea3d2b02cd grpc server at 192.168.50.33:19333
+I1028 12:24:30.512173 masterclient.go:175 No existing leader found!
+I1028 12:24:30.512475 raft_server.go:190 Initializing new cluster
+I1028 12:24:30.513226 master_server.go:207 leader change event:  => 192.168.50.33:9333
+I1028 12:24:30.513401 master_server.go:210 [192.168.50.33:9333] 192.168.50.33:9333 becomes leader.
+I1028 12:24:30.546618 node.go:427 topo adds child DefaultDataCenter
+I1028 12:24:30.546741 node.go:427 topo:DefaultDataCenter adds child DefaultRack
+I1028 12:24:30.546851 node.go:427 topo:DefaultDataCenter:DefaultRack adds child 192.168.50.33:8080
+I1028 12:24:30.546984 node.go:427 topo:DefaultDataCenter:DefaultRack:192.168.50.33:8080 adds child 
+I1028 12:24:30.547119 master_grpc_server.go:141 added volume server 0: 192.168.50.33:8080 [8dc261d7-e72f-44c1-a8d6-5cfb055bf410]
+I1028 12:24:30.547242 master_grpc_server.go:51 found new uuid:192.168.50.33:8080 [8dc261d7-e72f-44c1-a8d6-5cfb055bf410] , map[192.168.50.33:8080:[8dc261d7-e72f-44c1-a8d6-5cfb055bf410]]
+I1028 12:24:30.757835 node.go:427 topo:DefaultDataCenter:DefaultRack adds child 192.168.50.33:8082
+I1028 12:24:30.757877 node.go:427 topo:DefaultDataCenter:DefaultRack:192.168.50.33:8082 adds child 
+I1028 12:24:30.757889 master_grpc_server.go:141 added volume server 0: 192.168.50.33:8082 [ec29e5c6-c030-4fba-8581-e072e420e90e]
+I1028 12:24:30.757907 master_grpc_server.go:51 found new uuid:192.168.50.33:8082 [ec29e5c6-c030-4fba-8581-e072e420e90e] , map[192.168.50.33:8080:[8dc261d7-e72f-44c1-a8d6-5cfb055bf410] 192.168.50.33:8082:[ec29e5c6-c030-4fba-8581-e072e420e90e]]
+I1028 12:24:31.065296 node.go:427 topo:DefaultDataCenter:DefaultRack adds child 192.168.50.33:8081
+I1028 12:24:31.065389 node.go:427 topo:DefaultDataCenter:DefaultRack:192.168.50.33:8081 adds child 
+I1028 12:24:31.065413 master_grpc_server.go:141 added volume server 0: 192.168.50.33:8081 [14dfe52a-40f6-4cc0-98e2-e19952b09d0c]
+I1028 12:24:31.065440 master_grpc_server.go:51 found new uuid:192.168.50.33:8081 [14dfe52a-40f6-4cc0-98e2-e19952b09d0c] , map[192.168.50.33:8080:[8dc261d7-e72f-44c1-a8d6-5cfb055bf410] 192.168.50.33:8081:[14dfe52a-40f6-4cc0-98e2-e19952b09d0c] 192.168.50.33:8082:[ec29e5c6-c030-4fba-8581-e072e420e90e]]
+I1028 12:24:31.067783 master_grpc_server.go:372 + client .master@192.168.50.33:9333
+I1028 12:24:31.068068 masterclient.go:272 + master@192.168.50.33:9333 noticed .master 192.168.50.33:9333
+I1028 12:24:31.434685 master_grpc_server.go:372 + client .filer@192.168.50.33:8888
+I1028 12:24:31.435114 masterclient.go:272 + master@192.168.50.33:9333 noticed .filer 192.168.50.33:8888
+I1028 12:24:31.437551 master_grpc_server.go:387 - client .filer@192.168.50.33:8888
+I1028 12:24:31.438097 masterclient.go:274 - master@192.168.50.33:9333 noticed .filer 192.168.50.33:8888
+I1028 12:24:31.440748 master_grpc_server.go:372 + client .filer@192.168.50.33:8888
+I1028 12:24:31.440995 masterclient.go:272 + master@192.168.50.33:9333 noticed .filer 192.168.50.33:8888
+I1028 12:24:38.789750 master_grpc_server.go:372 + client .admin@1ed1a578-4599-4643-a7e7-5b9a249266e8
+I1028 12:24:38.790713 master_grpc_server.go:387 - client .admin@1ed1a578-4599-4643-a7e7-5b9a249266e8
+I1028 12:24:38.796500 master_grpc_server.go:372 + client .admin@a0fbd98d-b664-4461-9600-e9cb74f5f137

@@ -1,0 +1,46 @@
+I1028 12:04:34.428693 filer_server.go:151 default to create filer store dir in ./filerldb2
+I1028 12:04:34.431227 masterclient.go:210 master localhost:9333 redirected to leader 192.168.50.33:9333
+I1028 12:04:34.434592 leveldb2_store.go:42 filer store leveldb2 dir: ./filerldb2
+I1028 12:04:34.434889 file_util.go:27 Folder ./filerldb2 Permission: -rwxr-xr-x
+I1028 12:04:34.723421 filer.go:165 create filer.store.id to 24627252
+I1028 12:04:34.723456 configuration.go:28 configured filer store to leveldb2
+I1028 12:04:34.724943 master_client.go:20 the cluster has 1 filer
+I1028 12:04:34.725000 filer_server.go:181 192.168.50.33:8888 bootstrap from peers [node_type:"filer"  address:"192.168.50.33:8888"  is_add:true  created_at_ns:1761638674437038490]
+I1028 12:04:34.725063 filer.go:123 192.168.50.33:8888 aggregate from peers [192.168.50.33:8888]
+I1028 12:04:34.725339 filer.go:289 Start Seaweed Filer 30GB 3.63 54d7748a4a54d94a31ce04d05db801faeff4f690 at 192.168.50.33:8888
+I1028 12:04:34.725440 meta_aggregator.go:92 loopSubscribeToOneFiler read 192.168.50.33:8888 start from 2025-10-28 12:03:34.724989676 +0400 +04 1761638614724989676
+I1028 12:04:34.726887 meta_aggregator.go:189 subscribing remote 192.168.50.33:8888 meta change: 2025-10-28 12:03:34.724989676 +0400 +04, clientId:1821995102
+I1028 12:04:34.727874 filer_grpc_server_sub_meta.go:296 + local listener filer:192.168.50.33:8888@192.168.50.33:34222 clientId -1821995102 clientEpoch 1
+I1028 12:04:34.727910 filer_grpc_server_sub_meta.go:117  + filer:192.168.50.33:8888@192.168.50.33:34222 local subscribe / from 2025-10-28 12:03:34.724989676 +0400 +04 clientId:-1821995102
+I1028 12:04:34.727936 filer_grpc_server_sub_meta.go:130 read on disk filer:192.168.50.33:8888@192.168.50.33:34222 local subscribe / from 2025-10-28 12:03:34.724989676 +0400 +04
+I1028 12:04:34.727983 filer_grpc_server_sub_meta.go:149 read in memory filer:192.168.50.33:8888@192.168.50.33:34222 local subscribe / from 2025-10-28 12:03:34.724989676 +0400 +04
+I1028 12:07:43.308342 filer_server.go:158 default to create filer store dir in ./filerldb2
+I1028 12:07:43.309678 filer_server.go:166 max_file_name_length 255
+I1028 12:07:57.383794 leveldb2_store.go:43 filer store leveldb2 dir: ./filerldb2
+I1028 12:07:57.383857 file_util.go:27 Folder ./filerldb2 Permission: -rwxr-xr-x
+I1028 12:07:57.385930 masterclient.go:235 master localhost:9333 redirected to leader 192.168.50.33:9333
+I1028 12:07:57.613351 filer.go:159 existing filer.store.id = 24627252
+I1028 12:07:57.613376 configuration.go:28 configured filer store to leveldb2
+I1028 12:07:57.614634 master_client.go:20 the cluster has 1 filer
+I1028 12:07:57.614682 filer.go:113 192.168.50.33:8888 aggregate from peers [192.168.50.33:8888]
+I1028 12:07:57.741621 filer.go:358 Start Seaweed Filer 8000GB 3.99 a80b5eea5e210e6b7996e55460b4c5ea3d2b02cd at 192.168.50.33:8888
+I1028 12:07:57.741658 meta_aggregator.go:80 loopSubscribeToOneFiler read 192.168.50.33:8888 start from 2025-10-28 12:06:57.614665399 +0400 +04 1761638817614665399
+I1028 12:07:57.744091 meta_aggregator.go:96 subscribing remote 192.168.50.33:8888 meta change: connecting to peer filer 192.168.50.33:8888: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 192.168.50.33:18888: connect: connection refused"
+I1028 12:07:59.477785 meta_aggregator.go:80 loopSubscribeToOneFiler read 192.168.50.33:8888 start from 2025-10-28 12:06:57.614665399 +0400 +04 1761638817614665399
+I1028 12:07:59.479134 meta_aggregator.go:182 subscribing remote 192.168.50.33:8888 meta change: 2025-10-28 12:06:57.614665399 +0400 +04, clientId:510950592
+I1028 12:07:59.479837 filer_grpc_server_sub_meta.go:411 + local listener filer:192.168.50.33:8888@192.168.50.33:42364 clientId -510950592 clientEpoch 1
+I1028 12:07:59.479883 filer_grpc_server_sub_meta.go:163  + filer:192.168.50.33:8888@192.168.50.33:42364 local subscribe / from {Time:2025-10-28 08:06:57.614665399 +0000 UTC Offset:-2 IsOffsetBased:false} clientId:-510950592
+I1028 12:24:17.405141 filer_server.go:158 default to create filer store dir in ./filerldb2
+I1028 12:24:17.405538 filer_server.go:166 max_file_name_length 255
+I1028 12:24:31.429361 leveldb2_store.go:43 filer store leveldb2 dir: ./filerldb2
+I1028 12:24:31.429643 file_util.go:27 Folder ./filerldb2 Permission: -rwxr-xr-x
+I1028 12:24:31.436330 masterclient.go:235 master localhost:9333 redirected to leader 192.168.50.33:9333
+I1028 12:24:31.788979 filer.go:159 existing filer.store.id = 24627252
+I1028 12:24:31.789007 configuration.go:28 configured filer store to leveldb2
+I1028 12:24:31.792876 master_client.go:20 the cluster has 1 filer
+I1028 12:24:31.793113 filer.go:113 192.168.50.33:8888 aggregate from peers [192.168.50.33:8888]
+I1028 12:24:31.845308 filer.go:358 Start Seaweed Filer 8000GB 3.99 a80b5eea5e210e6b7996e55460b4c5ea3d2b02cd at 192.168.50.33:8888
+I1028 12:24:31.845317 meta_aggregator.go:80 loopSubscribeToOneFiler read 192.168.50.33:8888 start from 2025-10-28 12:23:31.792933304 +0400 +04 1761639811792933304
+I1028 12:24:31.853290 meta_aggregator.go:182 subscribing remote 192.168.50.33:8888 meta change: 2025-10-28 12:23:31.792933304 +0400 +04, clientId:1290256202
+I1028 12:24:31.854521 filer_grpc_server_sub_meta.go:411 + local listener filer:192.168.50.33:8888@192.168.50.33:55002 clientId -1290256202 clientEpoch 1
+I1028 12:24:31.854669 filer_grpc_server_sub_meta.go:163  + filer:192.168.50.33:8888@192.168.50.33:55002 local subscribe / from {Time:2025-10-28 08:23:31.792933304 +0000 UTC Offset:-2 IsOffsetBased:false} clientId:-1290256202

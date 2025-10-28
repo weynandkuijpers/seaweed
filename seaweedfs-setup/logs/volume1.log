@@ -1,0 +1,59 @@
+I1028 12:04:17.404152 file_util.go:27 Folder ../data/volume1 Permission: -rwxr-xr-x
+I1028 12:04:17.407783 volume_grpc_client_to_master.go:43 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:04:19.198844 volume_grpc_client_to_master.go:43 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:04:20.996054 volume_grpc_client_to_master.go:43 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:04:22.789195 volume_grpc_client_to_master.go:43 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:04:24.581926 volume_grpc_client_to_master.go:43 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:04:26.374110 volume_grpc_client_to_master.go:43 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:04:28.167137 volume_grpc_client_to_master.go:43 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:04:29.959899 volume_grpc_client_to_master.go:43 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:04:31.755856 volume_grpc_client_to_master.go:43 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:04:34.000106 disk_location.go:238 Store started on dir: ../data/volume1 with 0 volumes max 8
+I1028 12:04:34.000499 disk_location.go:241 Store started on dir: ../data/volume1 with 0 ec shards
+I1028 12:04:34.002964 volume.go:370 Start Seaweed volume server 30GB 3.63 54d7748a4a54d94a31ce04d05db801faeff4f690 at 192.168.50.33:8080
+I1028 12:04:34.004844 volume_grpc_client_to_master.go:52 Volume server start with seed master nodes: [localhost:9333]
+I1028 12:04:34.008231 volume_grpc_client_to_master.go:109 Heartbeat to: localhost:9333
+volume server has been killed
+I1028 12:06:44.060899 volume_server.go:139 Stopping volume server...
+I1028 12:06:44.060929 volume.go:281 stop send heartbeat and wait 10 seconds until shutdown ...
+I1028 12:06:54.061604 volume.go:305 graceful stop cluster http server ... 
+I1028 12:06:54.061718 volume.go:310 graceful stop gRPC ...
+I1028 12:06:54.061812 volume_server.go:149 Shutting down volume server...
+I1028 12:06:54.061832 volume_server.go:151 Shut down successfully!
+I1028 12:07:40.252353 file_util.go:27 Folder ../data/volume1 Permission: -rwxr-xr-x
+I1028 12:07:40.255472 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:07:42.049972 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:07:43.843285 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:07:45.637115 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:07:47.430002 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:07:49.223628 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:07:51.018555 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:07:52.810059 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:07:54.605334 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:07:56.930104 disk_location.go:260 Store started on dir: ../data/volume1 with 0 volumes max 8 (disk ID: 0)
+I1028 12:07:56.930320 disk_location.go:263 Store started on dir: ../data/volume1 with 0 ec shards (disk ID: 0)
+I1028 12:07:56.931149 volume_grpc_client_to_master.go:53 Volume server start with seed master nodes: [localhost:9333]
+I1028 12:07:56.932182 volume.go:381 Start Seaweed volume server 8000GB 3.99 a80b5eea5e210e6b7996e55460b4c5ea3d2b02cd at 192.168.50.33:8080
+I1028 12:07:56.934563 volume_grpc_client_to_master.go:130 Heartbeat to: localhost:9333
+volume server has been killed
+I1028 12:10:47.031964 volume_server.go:149 Stopping volume server...
+I1028 12:10:47.032012 volume.go:292 stop send heartbeat and wait 10 seconds until shutdown ...
+I1028 12:10:57.032292 volume.go:316 graceful stop cluster http server ... 
+I1028 12:10:57.033068 volume.go:321 graceful stop gRPC ...
+I1028 12:10:57.033440 volume_server.go:159 Shutting down volume server...
+I1028 12:10:57.033527 volume_server.go:161 Shut down successfully!
+I1028 12:24:14.396326 file_util.go:27 Folder ../data/volume1 Permission: -rwxr-xr-x
+I1028 12:24:14.397497 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:24:16.188469 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:24:17.981350 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:24:19.773234 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:24:21.566101 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:24:23.359231 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:24:25.153088 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:24:26.946366 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:24:28.743402 volume_grpc_client_to_master.go:44 checkWithMaster localhost:9333: get master localhost:9333 configuration: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp [::1]:19333: connect: connection refused"
+I1028 12:24:30.539318 disk_location.go:260 Store started on dir: ../data/volume1 with 0 volumes max 8 (disk ID: 0)
+I1028 12:24:30.539775 disk_location.go:263 Store started on dir: ../data/volume1 with 0 ec shards (disk ID: 0)
+I1028 12:24:30.540546 volume_grpc_client_to_master.go:53 Volume server start with seed master nodes: [localhost:9333]
+I1028 12:24:30.540971 volume.go:381 Start Seaweed volume server 8000GB 3.99 a80b5eea5e210e6b7996e55460b4c5ea3d2b02cd at 192.168.50.33:8080
+I1028 12:24:30.543901 volume_grpc_client_to_master.go:130 Heartbeat to: localhost:9333
