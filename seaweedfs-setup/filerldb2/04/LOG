@@ -1,0 +1,6 @@
+=============== Oct 28, 2025 (+04) ===============
+11:25:22.851454 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:25:22.869292 db@open opening
+11:25:22.869977 version@stat F·[] S·0B[] Sc·[]
+11:25:22.887104 db@janitor F·2 G·0
+11:25:22.887238 db@open done T·17.89226ms
